@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 pd.set_option("display.float_format", "{:.2f}".format)
 
 def display_md(string):
-    display(Markdown(string))
+    return display(Markdown(string))
 
 
 # Load dataset 
@@ -38,3 +38,17 @@ def load_data(path):
 
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
+# formatting & consistency of dataset
+def data_type(data):
+    dtype_df = pd.DataFrame(
+        index=data.columns,
+        columns=['Dtype', 'nunique', 'unique', 'missing_value']
+    )
+
+    dtype_df['Dtype'] = data.dtypes
+    dtype_df['nunique'] = data.nunique()
+    dtype_df['unique'] = [data[col].unique() for col in data.columns]
+    dtype_df['missing_value'] = [data[col].isnull().sum() for col in data.columns]
+
+    return dtype_df
