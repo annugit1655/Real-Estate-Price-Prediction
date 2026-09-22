@@ -40,7 +40,7 @@ def load_data(path):
         print(f"An unexpected error occurred: {e}")
 
 # formatting & consistency of dataset
-def data_type(data):
+def datatype_df(data: pd.DataFrame):
     dtype_df = pd.DataFrame(
         index=data.columns,
         columns=['Dtype', 'nunique', 'unique', 'missing_value']
