@@ -52,6 +52,44 @@ The dataset contains detailed information about residential properties, includin
 - Lot Dimensions
 - Sale Information
 
+# 📊 **Exploratory Data Analysis (EDA)**
+
+A comprehensive exploratory data analysis (EDA) was conducted before modeling to examine feature distributions, handle missing values, detect outliers, and uncover patterns and correlations with the target variable.
+
+- put all 6 eda's dashboard picture
+
+## **Key Highlights**
+
+🏘️ **[1. Neighborhood & House Price Analysis](E:\house_price_prediction\notebooks\02-Neighborhood-&-Zoning-Analysis.ipynb)**
+- House prices vary significantly across neighborhoods, highlighting the importance of location in property valuation.
+- Larger homes generally sell for higher prices, but the impact of size varies across neighborhoods.
+- Some neighborhoods command a higher price per square foot, even after accounting for house size.
+
+🏗️ **[2. Impact of Zoning](E:\house_price_prediction\notebooks\02-Neighborhood-&-Zoning-Analysis.ipynb)**
+- Zoning classifications are associated with differences in house sale prices.
+- Residential zoning categories generally show higher sale prices than commercial categories in this analysis.
+- The Floating Village Residential (FV) category particularly command premium prices due to its rarity and uniqueness.
+
+📈 **[3. Time Series Analysis](E:\house_price_prediction\notebooks\04-Time-and-Market-Trend-Analysis.ipynb)**
+- Both home sales volume and prices show seasonal patterns, with certain times of the year bringing more activity and noticeable price changes.
+- Housing prices in Ames and the seasonal decomposition showing that more recently built or remodeled homes tend to sell for higher prices.
+- Remodeled house tend to sell for higher prices than non-remodeled ones, especially for homes built after 1950 but difference effect is small.
+
+🏡 **[4. Property Price Drivers Analysis](E:\house_price_prediction\notebooks\01-Property-Price-and-Feature-Relationship-Analyis.ipynb)**
+- Living area, basement size, garage capacity, and overall material quality show strong relationships with house sale prices.
+- Homes with higher overall quality and condition ratings generally sell for higher prices, with quality appearing to have a stronger influence on property value.
+- Larger homes tend to have higher quality ratings and sale prices, but greater size does not necessarily indicate better maintenance or condition.
+
+🏠 **[5. Property Type Analysis](E:\house_price_prediction\notebooks\05-Property-Price-Segmentation-Analysis.ipynb)**
+- Newer, larger homes on bigger lots sell for more.
+- Building type remains an important secondary factor: single-family homes are premium, while multi-unit and interior townhouse forms carry discounts.
+- End-unit townhouses are the strongest exception among non-single-family types, suggesting they are more competitive with single-family values.
+
+**[Explore the Complete EDA Notebook](E:\house_price_prediction\notebooks)**
+
+
+
+
 
 
 
