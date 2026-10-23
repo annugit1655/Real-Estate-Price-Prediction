@@ -16,7 +16,7 @@ An end-to-end **Machine Learning Regression** project that predicts residential 
 The final tuned **Ridge Regression** model achieved **R&sup2; score of** ,explaining over **% of the variance** in house prices.
 
 ---
-# 📌 **Project Overview**
+## 📌 **Project Overview**
 Accurately predicting house prices is a challenging regression task, as property values depend on multiple factors, including living area,  quality & condition, location, zone, property type, and available amenities.
 
 This project focuses on predicting house prices using __Python, Scikit-learn, regularized regression, and SHAP__, this project covers the end-to-end machine learning workflow, including:
@@ -29,7 +29,7 @@ This project focuses on predicting house prices using __Python, Scikit-learn, re
 - 🔎 SHAP Explainability
 - 📊 Final Model & Insights
 ---
-# 📂 **Dataset**
+## 📂 **Dataset**
 This project uses [ Ames Housing Dataset – Kaggle ](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset), one of the most widely used regression dataset for machine learning.
 
 ### 📊 Dataset Overview
@@ -52,13 +52,14 @@ The dataset contains detailed information about residential properties, includin
 - Lot Dimensions
 - Sale Information
 
-# 📊 **Exploratory Data Analysis (EDA)**
+---
+## 📊 **Exploratory Data Analysis (EDA)**
 
 A comprehensive exploratory data analysis (EDA) was conducted before modeling to examine feature distributions, handle missing values, detect outliers, and uncover patterns and correlations with the target variable.
 
 - put all 6 eda's dashboard picture
 
-## **Key Highlights**
+### **Key Highlights**
 
 🏘️ **[1. Neighborhood & House Price Analysis](https://github.com/annugit1655/Real-Estate-Price-Prediction/blob/main/notebooks/02-Neighborhood-%26-Zoning-Analysis.ipynb)**
 - House prices vary significantly across neighborhoods, highlighting the importance of location in property valuation.
@@ -86,6 +87,116 @@ A comprehensive exploratory data analysis (EDA) was conducted before modeling to
 - End-unit townhouses are the strongest exception among non-single-family types, suggesting they are more competitive with single-family values.
 
 **[Explore the Complete EDA Notebook](https://github.com/annugit1655/Real-Estate-Price-Prediction/blob/main/notebooks)**
+
+---
+## 🔧 **Feature Engineering**
+
+Several domain-specific features were created to improve model performance and minimize redundant information.
+### 🧩 Engineered Features & Preprocessing
+
+- 🏠 House Age = `YrSold − YearBuilt`
+- 🛁 Total Bathrooms
+- 📐 Total Square Footage
+- 🧹 Missing Value Imputation
+- 🧪 Removal of Insignificant Features Using ANOVA & T-Test
+
+Feature engineering and preprocessing resulted in approximately **97 candidate features**, which were subsequently reduced to **25 predictors** for further analysis.
+
+---
+## 🤖 **Feature Selection & Model Development**
+
+### 🎯 Feature Selection Techniques
+
+- 📉 **Ridge Regression** — Used L2 regularization and coefficient analysis to identify relevant predictors.
+- 🧠 **Manual Feature Selection** — Selected predictors based on domain knowledge and interpretability.
+
+### 🧪 Model Training
+
+- 🔀 Separate models were trained and evaluated using the feature sets obtained from each selection technique.
+- 📊 Model performance was compared using predictive accuracy and generalization ability.
+- 🏆 **Best-Performing Model:** Ridge Regressor
+- ⚙️ **Hyperparameter Optimization:** GridSearchCV was used to identify the optimal hyperparameters.
+
+---
+## 🧮 **Model Performance**
+
+Final Model Metrics
+| Metric | Score |
+|:---|---:|
+| R² Score | XX.XX |
+| Mean Absolute Error (MAE) | XX.XX |
+| Root Mean Squared Error (RMSE) | XX.XX |
+---
+## **Model Evaluation**
+
+add QQ-plot, distribution of residuals, residual vs predicted prices image
+---
+## 🔍 **Model Explainability (SHAP)**
+
+---
+## **💼 Business Insights**
+
+---
+## 🛠️ **Tech Stack**
+
+| Category | Technologies |
+|:---|---:|
+| Programming Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Dimensionality Reduction | PCA, MDS |
+| Statistical Analysis | Statsmodels |
+| Text Visualization | WordCloud |
+| Clustering Visualization | Dendrogram |
+| Machine Learning | Scikit-learn |
+| Gradient Boosting | XGBoost |
+| Model Explainability | SHAP |
+| Hyperparameter Tuning | GridSearchCV |
+| Web Application | Streamlit |
+
+---
+## **Getting Started**
+
+### 1. Clone the repository
+ `https://github.com/annugit1655/Real-Estate-Price-Prediction.git`
+
+### 2. Install dependencies
+  `pip install -r requirements.txt`
+
+### 3. Train the model (Optional)
+A trained model is already included.
+
+To retrain from scratch, open:
+
+ `run all notebooks 01-10`
+
+---
+## 🔮 Future Improvements
+
+- 🗺️ Add geospatial features such as latitude and longitude.
+- 🏘️ Identify drivers of undervalued properties.
+- 🤖 Ensemble XGBoost, CatBoost, and LightGBM.
+- ☁️ Deploy on Streamlit Cloud or AWS.
+- 📈 Automate model retraining.
+- ⚙️ Build an end-to-end MLOps pipeline.
+
+---
+## ⭐ Support
+If you found this project useful, consider giving it a ⭐ Star on GitHub. It helps others discover the project and supports future improvements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
