@@ -153,22 +153,28 @@ add QQ-plot, distribution of residuals, residual vs predicted prices image
 | Model Explainability | SHAP |
 | Hyperparameter Tuning | GridSearchCV |
 | Web Application | Streamlit |
+| Verion Control | Git, GitHub |
 
 ---
 ## **Getting Started**
 
 ### 1. Clone the repository
- `https://github.com/annugit1655/Real-Estate-Price-Prediction.git`
+```bash
+git clone https://github.com/annugit1655/Real-Estate-Price-Prediction.git
+```
 
 ### 2. Install dependencies
-  `pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 ### 3. Train the model (Optional)
 A trained model is already included.
 
 To retrain from scratch, open:
-
- `run all notebooks 01-10`
+```bash
+run all notebooks 01-10
+```
 
 ---
 ## 🔮 Future Improvements
