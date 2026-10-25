@@ -19,7 +19,7 @@ The final tuned **Ridge Regression** model achieved **R&sup2; score of** ,explai
 ## 📌 **Project Overview**
 Accurately predicting house prices is a challenging regression task, as property values depend on multiple factors, including living area,  quality & condition, location, zone, property type, and available amenities.
 
-This project focuses on predicting house prices using __Python, Scikit-learn, regularized regression, and SHAP__, this project covers the end-to-end machine learning workflow, including:
+This project focuses on predicting house prices using __Python, Scikit-learn, regularized regression, and SHAP__, & covers the end-to-end machine learning workflow, including:
 
 - 🔍 Exploratory Data Analysis (EDA)
 - 🧹 Data Cleaning
@@ -153,7 +153,7 @@ add QQ-plot, distribution of residuals, residual vs predicted prices image
 | Model Explainability | SHAP |
 | Hyperparameter Tuning | GridSearchCV |
 | Web Application | Streamlit |
-| Verion Control | Git, GitHub |
+| Version Control | Git, GitHub |
 
 ---
 ## **Getting Started**
@@ -189,6 +189,33 @@ run all notebooks 01-10
 ---
 ## ⭐ Support
 If you found this project useful, consider giving it a ⭐ Star on GitHub. It helps others discover the project and supports future improvements.
+
+### 📚 Citation
+If you use this project in academic research, publications, educational materials, or derivative works, please cite it and provide appropriate credit to the original author.
+
+This repository includes a `CITATION.cff` file, so GitHub provides a "**Cite this repository**" button in the repository sidebar. You can use it to obtain citations in BibTeX, APA, and other supported formats.
+
+Yadav, Annu. (2026). Real Estate Price Prediction (Version 1.0) [Software]. GitHub.
+
+```bash
+https://github.com/annugit1655/Real-Estate-Price-Prediction
+```
+Author: Yadav Annu
+
+GitHub: https://github.com/annugit1655
+
+Contact: ayannu1655@gmail.com
+
+If you build upon this work, attribution is appreciated and helps others discover the original project.
+
+Note: The MIT License requires that the original copyright notice be retained in copies of the Software.
+
+📜 License
+
+© 2026 Yadav Annu.
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/annugit1655/Real-Estate-Price-Prediction/blob/main/LICENSE) file for details.
+
 
 
 

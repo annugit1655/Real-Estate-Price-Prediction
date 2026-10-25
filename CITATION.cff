@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+title: "Real Estate Price Prediction"
+message: "If you use this project in your research, publication, or educational work, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: "Yadav"
+    given-names: "Annu"
+    affiliation: "Data Scientist"
+
+repository-code: "https://github.com/annugit1655/Real-Estate-Price-Prediction"
+
+license: "MIT"
+
+abstract: >
+  An end-to-end machine learning regression project that predicts residential property sale prices using the Ames Housing Dataset. 
+  The project explores relationships between property features and sale prices, neighborhood and zoning characteristics, 
+  property types, historical market trends, and price segmentation. It includes data cleaning, preprocessing, feature engineering, 
+  baseline model development, hyperparameter tuning, and final model evaluation. The project also translates analytical findings 
+  into interpretable insights about key property price drivers and actionable recommendations for real estate valuation. 
+  It demonstrates a reproducible data science workflow covering exploratory data analysis, feature engineering, regression modeling, 
+  and business-oriented interpretation.
+
+keywords:
+  - Real Estate
+  - House Price Prediction
+  - Ames Housing Dataset
+  - Machine Learning
+  - Regression Analysis
+  - Data Science
+  - Exploratory Data Analysis
+  - Feature Engineering
+  - Data Preprocessing
+  - Feature Selection
+  - Model Evaluation
+  - Hyperparameter Tuning
+  - Predictive Modeling
+  - Property Valuation
+  - Real Estate Analytics
+  - Neighborhood Analysis
+  - Zoning Analysis
+  - Market Trend Analysis
+  - Price Segmentation
+  - Business Insights
+  
+date-released: "2026-10-26"
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Yadav"
+      given-names: "Annu"
+  title: "Real Estate Price Prediction"
+  year: 2026
+  url: "https://github.com/annugit1655/Real-Estate-Price-Prediction"
