@@ -13,7 +13,7 @@
 
 An end-to-end **Machine Learning Regression** project that predicts residential property prices using the __Ames Housing Dataset.__
 
-The final tuned **Ridge Regression** model achieved **R&sup2; score of** ,explaining over **% of the variance** in house prices.
+The final tuned **Ridge Regression** model achieved **R&sup2; score of 0.8659** ,explaining over **86.6% of the variance** in house prices.
 
 ---
 ## 📌 **Project Overview**
@@ -123,13 +123,13 @@ Feature engineering and preprocessing resulted in approximately **97 candidate f
 Final Model Metrics
 | Metric | Score |
 |:---|---:|
-| R² Score | XX.XX |
-| Mean Absolute Error (MAE) | XX.XX |
-| Root Mean Squared Error (RMSE) | XX.XX |
+| R² Score | 0.8659 |
+| Mean Absolute Error (MAE) | 20931.27 |
+| Root Mean Squared Error (RMSE) | 28426.01 |
 ---
-## **Model Evaluation**
+### **Model Evaluation**
 
-add QQ-plot, distribution of residuals, residual vs predicted prices image
+![Model Evaluation Plot](images/model_evaluation.png)
 ---
 ## 🔍 **Model Explainability (SHAP)**
 
@@ -193,7 +193,7 @@ If you found this project useful, consider giving it a ⭐ Star on GitHub. It he
 ### 📚 Citation
 If you use this project in academic research, publications, educational materials, or derivative works, please cite it and provide appropriate credit to the original author.
 
-This repository includes a `CITATION.cff` file, so GitHub provides a "**Cite this repository**" button in the repository sidebar. You can use it to obtain citations in BibTeX, APA, and other supported formats.
+This repository includes a [CITATION.cff](#https://github.com/annugit1655/Real-Estate-Price-Prediction/blob/main/CITATION.cff) file, so GitHub provides a "**Cite this repository**" button in the repository sidebar. You can use it to obtain citations in BibTeX, APA, and other supported formats.
 
 Yadav, Annu. (2026). Real Estate Price Prediction (Version 1.0) [Software]. GitHub.
 

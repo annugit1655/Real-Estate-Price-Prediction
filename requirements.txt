@@ -8,4 +8,9 @@ scipy
 plotly
 sidetable
 feature-engine
-dvc
+statsmodels
+WordCloud
+shap
+joblib
+pickle
+pathlib
