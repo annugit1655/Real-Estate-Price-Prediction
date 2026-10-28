@@ -149,7 +149,8 @@ Final Model Metrics
 | Text Visualization | WordCloud |
 | Clustering Visualization | Dendrogram |
 | Machine Learning | Scikit-learn |
-| Gradient Boosting | XGBoost |
+| Best Model | Ridge Regression |
+| Regularization | L2 |
 | Model Explainability | SHAP |
 | Hyperparameter Tuning | GridSearchCV |
 | Web Application | Streamlit |
@@ -173,7 +174,7 @@ A trained model is already included.
 
 To retrain from scratch, open:
 ```bash
-run all notebooks 01-10
+run all notebooks 01-11
 ```
 
 ---
